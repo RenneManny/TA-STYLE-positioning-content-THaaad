@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.logo {
+  float: left;
+  margin-left: 50px;
+}
+
+header {
+  background-color: wheat;
+}
+
+nav a {
+  float: right;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 22px;
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.art {
+  float: left;
+  width: 20%;
+  margin: 100px;
+
+}
+
+main::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.art p {
+  margin-top: 20px;
+  font-family: cursive;
+}
+
+.ftr {
+  background-color: rgb(35, 35, 77);
+  padding: 28px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
