@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+}
+.hdr {
+  background-color: rgb(86, 147, 251);
+  height: 500px;
+}
+.container {
+  max-width: 1140px;
+  margin: 0px auto;
+  padding: 70px;
+  color: white;
+}
+.brand {
+  float: left;
+  text-transform: capitalize;
+}
+.nav {
+  float: right;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 22px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.mydiv {
+  margin-top: 50px;
+}
+.mydiv h1 {
+  text-align: center;
+  font-size: 63px;
+  color: white;
+  font-family: "Noto Sans Cherokee", sans-serif;
+}
+.mydiv p {
+  text-align: center;
+  font-size: 22px;
+  color: white;
+  font-family: "Noto Sans Cherokee", sans-serif;
+}
+/* article */
+.col {
+  float: left;
+  width: 33%;
+  padding: 0 32px;
+  margin-top: 20px;
+}
+.col h4 {
+  color: rgb(86, 147, 251);
+  font-size: 20px;
+  font-family: "Noto Sans Cherokee", sans-serif;
+  /* text-align: center; */
+}
+.col p {
+  color: black;
+  font-size: 22px;
+  font-family: "Noto Sans Cherokee", sans-serif;
+  /* text-align: center; */
+}
+.btn {
+  background-color: rgb(86, 147, 251);
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+/* section*/
+.mysection {
+  background-color: rgb(86, 147, 251);
+  height: 600px;
+  text-align: center;
+  margin-top: 25px;
+}
+.mysection h2 {
+  font-size: 52px;
+  font-family: "Noto Sans Cherokee", sans-serif;
+}
+/* image gallery*/
+.col2 {
+  margin-top: 50px;
+  border: 1px solid white;
+  float: left;
+  width: 22%;
+  height: 300px;
+  padding: 15px;
+  margin-left: 30px;
+}
+.col2 h5 {
+  font-family: "Noto Sans Cherokee", sans-serif;
+  font-size: 22px;
+}
+.col2 p {
+  font-family: "Noto Sans Cherokee", sans-serif;
+}
+.col2 img {
+  padding: 15px;
+  border-radius: 50%;
+  /* margin-left: 18px; */
+}
+/* second section */
+.flex{
+  display: flex;
+  justify-content: space-between;
+  /* padding: 12px; */
+  margin-bottom: 50px;
+}
+.flex img{
+  width: 450px;
+}
+.flex h5{
+  color: rgb(86, 147, 251);
+  font-size: 23px;
+}
+.flex p{
+  color: grey;
+}
+/* hr{
+  color: grey;
+  width: 1140px;
+  margin-left: 200px;
+  text-align: center;
+} */
+/* footer css */
+.copy {
+  border-top: 1px solid grey;
+  color: grey;
+  padding: 25px;
+}
+.ftr{
+  display: flex;
+  justify-content: space-between;
+}
+.ftr-nav a{
+  margin: 5px;
+}
