@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  position: relative;
+  line-height: 1.5;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.hdr {
+  width: 100%;
+  background-color: rgb(6, 6, 38);
+  height: 80px;
+  line-height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 32px;
+}
+.brand img {
+  float: left;
+  vertical-align: baseline;
+}
+nav {
+  float: right;
+}
+/* appling clearfix in container */
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  margin: 28px;
+  text-transform: uppercase;
+}
+/* article CSS */
+.art {
+  padding: 150px 0px;
+}
+.col1 {
+  float: left;
+  width: 50%;
+}
+.col2 {
+  float: left;
+  width: 50%;
+}
+.col2 img {
+  margin-left: 50px;
+  width: 400px;
+  height: 300px;
+}
+.row1,
+.row2 {
+  float: left;
+}
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+}
+.clearfix::after {
+  clear: both;
+}
+.gallery {
+  margin-top: 250px;
+  padding: 50px;
+  background-color: antiquewhite;
+}
+.col11,
+.col12,
+.col13 {
+  float: left;
+}
+.col11 img,
+.col13 img,
+.col12 img {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+.row2 {
+  margin-top: 50px;
+}
+.col21,
+.col22,
+.col23 {
+  float: left;
+}
+.col21 img,
+.col22 img,
+.col23 img {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+/* button CSS */
+.btn {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: brown;
+  padding: 16px;
+
+  /* width: 100px; */
+  border: none;
+  border-radius: 50%;
+}
+a {
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+/* footer CSS */
+.ftr {
+  background-color: rgb(39, 70, 39);
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
